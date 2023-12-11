@@ -22,7 +22,9 @@ stats avail on page
 	- Total time spent in the appointment
 	- The Appointment description. This serves as the reason for appointment.
 	- Procedure (A therapeutic, is medical activity that can be performed by the clinic, such as anaesthesia, desexing, microchipping)
-	- Operation or not and if so procedures performed. 	
+	- Operation or not and if so procedures performed. 
 
-
+looking at total number of snake bites if we can see it specifically for summer if we could
+look at number of dogs that get bitten and % that need anti venom ( could this be applied to country regions to prevent animal deaths)
+Looking at total number of Procedures done per year. % break up of those procedures and then % of animal types that have procedures each year 
 	
