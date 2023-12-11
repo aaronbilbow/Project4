@@ -17,6 +17,12 @@ do all the heat mapping with months as drop downs
 stats avail on page
 	- highest product sold
  
+## Adams input below ## 
+- stats on appointments, (idea on this:  could group by animal type/proceudre type and look at numbers of these as % of total number)
+	- Total time spent in the appointment
+	- The Appointment description. This serves as the reason for appointment.
+	- Procedure (A therapeutic, is medical activity that can be performed by the clinic, such as anaesthesia, desexing, microchipping)
+	- Operation or not and if so procedures performed. 	
 
 
 	
