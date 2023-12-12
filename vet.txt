@@ -16,6 +16,19 @@ do all the heat mapping with months as drop downs
 
 stats avail on page
 	- highest product sold
+
+---------------------------------------------------------------------
+will need some of this calc
+
+
+amountUpdated.groupBy('transaction_date').agg(
+    sum("transaction_amount").alias("Total Amount"),
+    avg("transaction_amount").alias("Average Amount"),
+    
+).show()
+ 
+
+----------------------------------------------------------------------
  
 ## Adams input below ## 
 - stats on appointments, (idea on this:  could group by animal type/proceudre type and look at numbers of these as % of total number)
