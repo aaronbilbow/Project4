@@ -37,3 +37,37 @@ Visulizations- scatter plots/ other graphs
 Group presentations- both need to talk
 Slide deck- make a presentation of it all 
 
+* Background infomation on MRI's: *
+They are magnet scans that use radio waves and computers to produce images. There are 2 types open and closed MRI's. Closed MRI's where originally more traditionally nevertheless people can become claustrophobic in these closed MRI's.With modern medicine and technology improving at a rapid rate open MRI's are producing higher quality imagery than they once did. One of the benefits to MRI's is that they do not involve radiation. Some of the injuries that an MRI can detect are listed below
+
+MRI of the brain and spinal cord can detect:
+brain aneurysms
+brain injury
+eye or ear issues
+pinched nerves
+multiple sclerosis (MS)
+stroke
+tumors of the brain or spine
+
+MRI of the cardiovascular system can evaluate:
+the anatomical structure of the heart
+blockages or other issues
+blood flow through the arteries and vessels
+congenital heart disease
+damage from heart attacks
+the function of the heart
+infection, tumors, and inflammation
+
+Other uses for MRI include:
+detecting tumors and cancer throughout the body, including breast cancer
+identifying other issues with organs (brain, heart, lungs, digestive organs)
+visualizing soft tissue injuries (ligaments, tendons, muscles)
+revealing joint disease and injury
+
+
+* Background infomation on CT Scans: *
+A computed tomography scan is often done when Xrays or ultrasounding testing isnt producing a clear and conclusive image. 
+The CT scan can be used to produce a more detailed picture of blood vessels, tissues and even bones. 
+CT scans may involve different dyes going into the body so that they can increase the contrast level of the imagery.
+CT scans shall exposue people to radiadation and the contrast dyes may cause an allergic reaction for some people.
+Nevertheless the idea behind the contrast dye is to get a clearer image and hopefully prevent the need for further scans. 
