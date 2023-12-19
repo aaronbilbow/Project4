@@ -1,0 +1,39 @@
+MNIST MEDICAL 
+
+58954 Images of different medical images  ranging from Magnetic resonance imaging (MRI) to  computed tomography scans (CT SCANS)
+Classes of the images are listed as being one of the following
+AbdomenCT
+BreastMRI
+CXR
+ChestCT
+Hand
+HeadCT
+
+1)
+Looking at what question we are trying to solve or analyse. 
+Identifying what part of the human body it is and the further benefits this can give having already classed regular imagery. 
+
+2/3) 
+use scikit-learn (looking at accuracy scores here)
+4) 
+Pandas
+Matplotlib
+
+Data and data delivery
+BibTeX
+@misc{Medical MNIST Classification,
+author = {apolanco3225},
+title = {Medical MNIST Classification},
+year = {2017},
+publisher = {GitHub},
+journal = {GitHub repository},
+howpublished = {\url{https://github.com/apolanco3225/Medical-MNIST-Classification}}
+}
+
+Back end (ETL)
+
+Visualizations
+Visulizations- scatter plots/ other graphs
+Group presentations- both need to talk
+Slide deck- make a presentation of it all 
+
