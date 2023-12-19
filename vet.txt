@@ -27,10 +27,13 @@ amountUpdated.groupBy('transaction_date').agg(
     
 ).show()
  
-
+Adam thinks we may need to use a time stamp convertor as well?
 ----------------------------------------------------------------------
  
 ## Adams input below ## 
+
+Looking at what question we are trying to solve or analyse. 
+
 - stats on appointments, (idea on this:  could group by animal type/proceudre type and look at numbers of these as % of total number)
 	- Total time spent in the appointment
 	- The Appointment description. This serves as the reason for appointment.
