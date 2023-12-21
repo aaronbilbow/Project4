@@ -1,0 +1,41 @@
+#Going about starting the project
+The aim of our project is to uncover patterns in credit card fraud. We’ll examine relationships between transaction types and location, 
+purchase prices and times of day, purchase trends over the course of a year, and other related relationships derived from the data.
+
+##Working log:
+Pre 19/12/23 looking at Vet clinics and infomation on them, APIs. Formed vet.txt file.
+
+19/12/23 Decided on the MNIST MEDICAL  dataset. Created Medical.txt
+
+Author of this data set is 
+BibTeX
+@misc{Medical MNIST Classification,
+author = {apolanco3225},
+title = {Medical MNIST Classification},
+year = {2017},
+publisher = {GitHub},
+journal = {GitHub repository},
+howpublished = {\url{https://github.com/apolanco3225/Medical-MNIST-Classification}}
+}
+
+##Project Requirements + how we will meet them:
+
+1) Find a problem worth solving, analyzing, or visualizing.
+
+The problem is the accuracy at which machines can determine which human body part has been scanned with a CT or MRI automatically. 
+If this was correctly fixed and adjusted for, the findings/code could go on to be used to assist with the identifcation of medical problems for patients with great accuracy and speed. This would benefit the medical community.
+
+2) You must use Scikit-learn and/or another machine learning library.
+
+We have decided to use Scikit-learn for predictions. 
+Nevertheless tensorflow.keras may also be used. 
+
+3) You must use at least two of the following: Python Pandas, Python Matplotlib, HTML/CSS/Bootstrap, JavaScript Plotly, JavaScript Leaflet, Tableau, SQL Database, MongoDB Database, Google Cloud SQL, Amazon AWS.
+
+From the following list we shall use at least: Python Pandas and Python Matplotlib. 
+
+4) The data set that shall be used is the MNIST Medical, containing 58954 Images, which can be found at: https://www.kaggle.com/datasets/andrewmvd/medical-mnist
+
+5) Back end ETL (Adam thinks this is taken care of by the images already being categorized by type of scan already, This saves us having to move scanned images into particularly folders. 
+
+6) Provide Visualizations: Scatter plots/ Images, with questions. 
