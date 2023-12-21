@@ -30,14 +30,14 @@ journal = {GitHub repository},
 howpublished = {\url{https://github.com/apolanco3225/Medical-MNIST-Classification}}
 }
 
-Back end (ETL)
+Back end (ETL)- may need to transform all images to a specific size(scale all to the same)
 
 Visualizations
-Visulizations- scatter plots/ other graphs
+Visulizations- scatter plots/ other graphs/ display numbers of each specfic scan. Display predictions vs actual. 
 Group presentations- both need to talk
 Slide deck- make a presentation of it all 
 
-* Background infomation on MRI's: *
+* Background infomation on MRI's: * (bit of infomation regarding why it is important that these are diagnosed correctly) 
 They are magnet scans that use radio waves and computers to produce images. There are 2 types open and closed MRI's. Closed MRI's where originally more traditionally nevertheless people can become claustrophobic in these closed MRI's.With modern medicine and technology improving at a rapid rate open MRI's are producing higher quality imagery than they once did. One of the benefits to MRI's is that they do not involve radiation. Some of the injuries that an MRI can detect are listed below
 
 MRI of the brain and spinal cord can detect:
@@ -71,3 +71,7 @@ The CT scan can be used to produce a more detailed picture of blood vessels, tis
 CT scans may involve different dyes going into the body so that they can increase the contrast level of the imagery.
 CT scans shall exposue people to radiadation and the contrast dyes may cause an allergic reaction for some people.
 Nevertheless the idea behind the contrast dye is to get a clearer image and hopefully prevent the need for further scans. 
+
+
+
+
