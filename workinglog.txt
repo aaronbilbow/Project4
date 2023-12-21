@@ -1,7 +1,6 @@
 #Going about starting the project
-The aim of our project is to uncover patterns in credit card fraud. We’ll examine relationships between transaction types and location, 
-purchase prices and times of day, purchase trends over the course of a year, and other related relationships derived from the data.
-
+The aim of our project is to uncover patterns in images provided to us from the MNIST Dataset to be able to correctly identify the type of scan taken. 
+We shall be looking into the relationship our testing model creates and the accuracy with which it predicts the image scanned. 
 ##Working log:
 Pre 19/12/23 looking at Vet clinics and infomation on them, APIs. Formed vet.txt file.
 
