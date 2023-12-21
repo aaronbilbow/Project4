@@ -37,5 +37,5 @@ From the following list we shall use at least: Python Pandas and Python Matplotl
 4) The data set that shall be used is the MNIST Medical, containing 58954 Images, which can be found at: https://www.kaggle.com/datasets/andrewmvd/medical-mnist
 
 5) Back end ETL (Adam thinks this is taken care of by the images already being categorized by type of scan already, This saves us having to move scanned images into particularly folders. 
-
-6) Provide Visualizations: Scatter plots/ Images, with questions. 
+Nevertheless we may need to transform all images to a specific size(scale all to the same)
+6) Provide Visualizations: Scatter plots, Graphs, Images of data. Prediction vs actual models. 
