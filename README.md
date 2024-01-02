@@ -8,6 +8,11 @@ GitHub repository at: [https://github.com/aaronbilbow/Project4.git](https://gith
 
 Presentation slides at: [x]
 
+## Table of Contents
+1. [Introduction](https://github.com/aaronbilbow/Project4#introduction)
+    1. [Repository Structure](https://github.com/aaronbilbow/Project4#repository-structure)
+    2. [Dataset](https://github.com/aaronbilbow/Project4#dataset)
+
 
 ## Introduction
 The project will create a predictive model of an MRI/CT Scan from one of 6 classes. The project is based on a MNIST data set was put together by BibTeX in 2017 and contains medical images that are 64x64.<br>
