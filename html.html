@@ -29,8 +29,42 @@
 
       
   </section>
+  <h1>Image Classification</h1>
+  <form enctype="multipart/form-data" action="/upload" method="post" id="uploadForm">
+      <input type="file" name="image" accept="image/*" required>
+      <button type="submit">Upload and Classify</button>
+  </form>
+  <div id="imageContainer" style="display: none;">
+      <h2>Uploaded Image</h2>
+      <img id="uploadedImage" alt="Uploaded Image">
+  </div>
+  <div id="result" style="display: none;">
+      <h2>Classification Result</h2>
+      <p id="classificationResult"></p>
+  </div>
 
+  <script>
+      document.getElementById('uploadForm').addEventListener('submit', function (event) {
+          event.preventDefault();
+
+          var formData = new FormData(this);
+
+          fetch('/upload', {
+              method: 'POST',
+              body: formData
+          })
+          .then(response => response.json())
+          .then(data => {
+              document.getElementById('imageContainer').style.display = 'block';
+              document.getElementById('uploadedImage').src = 'uploads/' + formData.get('image').name;
+
+              document.getElementById('result').style.display = 'block';
+              document.getElementById('classificationResult').innerText = 'Classification Result: ' + data.result;
+          })
+          .catch(error => {
+              console.error('Error:', error);
+          });
+      });
+  </script>
 </body>
-
-
 </html>
