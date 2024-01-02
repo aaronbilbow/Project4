@@ -42,7 +42,8 @@ __Dataset Limitations__
 ###### The model achieves x precision, and x accuracy when prediciting which class an image, from one of the 6 relevant classes, belongs to. 
 
 ### Analysis and Future Questions
-
+A deeper intention behind this model is to put together a database of various scans with different health complications so that<br>
+future models are able to predict/identify health problems earlier by scanning over the images and highlighting possible concerns.<br> </p>
 ## Acknowledgements 
 BibTeX
 @misc{Medical MNIST Classification, author = {apolanco3225}, title = {Medical MNIST Classification}, year = {2017}, publisher = {GitHub}, journal = {GitHub repository}, howpublished = {\url{https://github.com/apolanco3225/Medical-MNIST-Classification}} }
