@@ -1,6 +1,6 @@
 
 # Project4
-![image](x
+![image](https://github.com/aaronbilbow/Project4/blob/main/MRI_Machine.jpg)
 
 Project4 - UWA/edX Data Analytics Bootcamp
 
