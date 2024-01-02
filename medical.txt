@@ -1,4 +1,4 @@
-MNIST MEDICAL 
+MNIST MEDICAL : https://www.kaggle.com/datasets/andrewmvd/medical-mnist/data?select=AbdomenCT
 
 58954 Images of different medical images  ranging from Magnetic resonance imaging (MRI) to  computed tomography scans (CT SCANS)
 Classes of the images are listed as being one of the following
