@@ -4,9 +4,9 @@
 
 Project4 - UWA/edX Data Analytics Bootcamp
 
-GitHub repository at: [https://github.com/aaronbilbow/Project4.git](https://github.com/aaronbilbow/Project4.git)
+GitHub repository can be located at: [https://github.com/aaronbilbow/Project4.git](https://github.com/aaronbilbow/Project4.git)
 
-Presentation slides at: [x]
+Presentation website can located at: [Project4](https://github.com/aaronbilbow/Project4/blob/main/html.html)
 
 ## Table of Contents
 1. [Introduction](https://github.com/aaronbilbow/Project4#introduction)
