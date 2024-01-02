@@ -12,7 +12,9 @@ Presentation slides at: [x]
 1. [Introduction](https://github.com/aaronbilbow/Project4#introduction)
     1. [Repository Structure](https://github.com/aaronbilbow/Project4#repository-structure)
     2. [Dataset](https://github.com/aaronbilbow/Project4#dataset)
-
+2. [Results](https://github.com/aaronbilbow/Project4#results)
+    1. [Analysis and Future Questions](https://github.com/aaronbilbow/Project4#analysis-and-future-questions)
+3. [Acknowledgements](https://github.com/aaronbilbow/Project4#acknowledgements)
 
 ## Introduction
 The project will create a predictive model of an MRI/CT Scan from one of 6 classes. The project is based on a MNIST data set was put together by BibTeX in 2017 and contains medical images that are 64x64.<br>
@@ -38,6 +40,8 @@ __Dataset Limitations__
 
 ## Results
 ###### The model achieves x precision, and x accuracy when prediciting which class an image, from one of the 6 relevant classes, belongs to. 
+
+### Analysis and Future Questions
 
 ## Acknowledgements 
 BibTeX
