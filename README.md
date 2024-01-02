@@ -28,3 +28,6 @@ Retrieved data from the following website: [https://www.kaggle.com/datasets/andr
 
 __Dataset Limitations__
 - There are only 6 classes of scans that have been provided.
+
+## Results
+###### The model achieves x precision, and x accuracy when prediciting which class an image, from one of the 6 relevant classes, belongs to. 
