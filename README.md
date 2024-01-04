@@ -32,7 +32,7 @@ Admin(Folder)-  'workinglog.txt', 'medical.txt'. 'Project4.docx'<br>
 Images(Folder)-contains all images used in the README.<br>
 
 ### Dataset
-Retrieved data from the following website: [https://www.kaggle.com/datasets/andrewmvd/medical-mnist/data?select=AbdomenCT] <br>
+Retrieved data from the following website: [https://www.kaggle.com/datasets/andrewmvd/medical-mnist] <br>
 The Dataset was then uploaded to the GitHub Repository at the following website: [ x ] 
 
 __Dataset Limitations__
