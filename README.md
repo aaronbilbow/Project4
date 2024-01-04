@@ -32,7 +32,7 @@ Admin(Folder)-  'workinglog.txt', 'medical.txt'. 'Project4.docx'<br>
 Images(Folder)-contains all images used in the README.<br>
 
 ### Dataset
-Retrieved data from the following website: [https://www.kaggle.com/datasets/andrewmvd/medical-mnist] <br>
+Retrieved data from the following website: https://www.kaggle.com/datasets/andrewmvd/medical-mnist <br>
 The Dataset was then uploaded to the GitHub Repository at the following website: [ x ] 
 
 __Dataset Limitations__
@@ -46,7 +46,7 @@ A deeper intention behind this model is to put together a database of various sc
 future models are able to predict/identify health problems earlier by scanning over the images and highlighting possible concerns.<br> </p>
 ## Acknowledgements 
 BibTeX
-@misc{Medical MNIST Classification, author = {apolanco3225}, title = {Medical MNIST Classification}, year = {2017}, publisher = {GitHub}, journal = {GitHub repository}, howpublished = {\url{https://github.com/apolanco3225/Medical-MNIST-Classification}} }
+@misc{Medical MNIST Classification, author = {apolanco3225}, title = {Medical MNIST Classification}, year = {2017}, publisher = {GitHub}, journal = {GitHub repository}, howpublished = https://github.com/apolanco3225/Medical-MNIST-Classification
 
 License
 Public Domain
