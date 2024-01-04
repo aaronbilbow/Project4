@@ -3,46 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Classification</title>
+    <title>Image Upload</title>
 </head>
 <body>
-    <h1>Image Classification</h1>
-    <form enctype="multipart/form-data" action="/upload" method="post" id="uploadForm">
-        <input type="file" name="image" accept="image/*" required>
-        <button type="submit">Upload and Classify</button>
-    </form>
-    <div id="imageContainer" style="display: none;">
-        <h2>Uploaded Image</h2>
-        <img id="uploadedImage" alt="Uploaded Image">
-    </div>
-    <div id="result" style="display: none;">
-        <h2>Classification Result</h2>
-        <p id="classificationResult"></p>
-    </div>
 
-    <script>
-        document.getElementById('uploadForm').addEventListener('submit', function (event) {
-            event.preventDefault();
+<h2>Upload Image for Analysis</h2>
 
-            var formData = new FormData(this);
+<form id="upload-form" action="/upload" method="post" enctype="multipart/form-data">
+    <label for="image">Choose an image:</label>
+    <input type="file" id="image" name="image" accept="image/*" onchange="resizeImage()">
+    <br>
+    <input type="submit" value="Upload and Analyze">
+</form>
 
-            fetch('/upload', {
-                method: 'POST',
-                body: formData
-            })
-            .then(response => response.json())
-            .then(data => {
-                document.getElementById('imageContainer').style.display = 'block';
-                document.getElementById('uploadedImage').src = 'uploads/' + formData.get('image').name;
+<script>
+    function resizeImage() {
+        const input = document.getElementById('image');
+        const file = input.files[0];
 
-                document.getElementById('result').style.display = 'block';
-                document.getElementById('classificationResult').innerText = 'Classification Result: ' + data.result;
-            })
-            .catch(error => {
-                console.error('Error:', error);
-            });
-        });
-    </script>
+        if (file) {
+            const reader = new FileReader();
+
+            reader.onload = function (e) {
+                const img = new Image();
+                img.src = e.target.result;
+
+                img.onload = function () {
+                    const canvas = document.createElement('canvas');
+                    const width = 64;
+                    const height = 64;
+
+                    canvas.width = width;
+                    canvas.height = height;
+
+                    const ctx = canvas.getContext('2d');
+                    ctx.drawImage(img, 0, 0, width, height);
+
+                    const resizedDataUrl = canvas.toDataURL(file.type);
+
+                    // Replace the original file with the resized one
+                    const resizedBlob = dataURLtoBlob(resizedDataUrl);
+                    const resizedFile = new File([resizedBlob], file.name, { type: file.type });
+
+                    // Update the input file with the resized file
+                    input.files[0] = resizedFile;
+                };
+            };
+
+            reader.readAsDataURL(file);
+        }
+    }
+
+    function dataURLtoBlob(dataURL) {
+        const arr = dataURL.split(',');
+        const mime = arr[0].match(/:(.*?);/)[1];
+        const bstr = atob(arr[1]);
+        let n = bstr.length;
+        const u8arr = new Uint8Array(n);
+
+        while (n--) {
+            u8arr[n] = bstr.charCodeAt(n);
+        }
+
+        return new Blob([u8arr], { type: mime });
+    }
+</script>
+
 </body>
 </html>
-
