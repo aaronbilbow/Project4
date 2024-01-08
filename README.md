@@ -23,10 +23,12 @@ These images where orginally taken from various other data sets and converted in
 
 
 ### Repository Structure
-The root directory contains:
--README.md
-
-Other directories:
+The root directory contains:<br>
+              -app.py<br>
+              -README.md<br>
+              -project-4.ipynb<br>
+              
+Other directories:<br>
 Images(Folder)- Contains the image used in the README.<br>
               - AbdomenCT (Folder) Contains 58954 different medical images of CT scan displaying an Abdomen in a 64x64 style <br>
               - BreastMRI (Folder) Contains 58954 different medical images of a Breast MRI displayed in a 64x64 style <br>
@@ -34,6 +36,7 @@ Images(Folder)- Contains the image used in the README.<br>
               - ChestCT (Folder) Contains 58954 different medical images of CT scan displaying a Chest in a 64x64 style <br>
               - Hand (Folder) Contains 58954 different medical images of an X-ray displaying a Hand in a 64x64 style <br> 
               - HeadCT (Folder) Contains 58954 different medical images of CT scan displaying a Head in a 64x64 style <br>
+              
 Admin(Folder)-  'workinglog.txt', 'medical.txt'. 'Project4.docx'<br>
 
 
