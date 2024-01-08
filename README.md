@@ -11,7 +11,7 @@ Presentation website can located at: [Project4](https://github.com/aaronbilbow/P
 ## Table of Contents
 1. [Introduction](https://github.com/aaronbilbow/Project4#introduction)
     1. [Repository Structure](https://github.com/aaronbilbow/Project4#repository-structure)
-    2. [Dataset](https://github.com/aaronbilbow/Project4#requirements)
+    2. [Requirements](https://github.com/aaronbilbow/Project4#requirements)
     3. [Dataset](https://github.com/aaronbilbow/Project4#dataset)
 2. [Results](https://github.com/aaronbilbow/Project4#results)
     1. [Analysis and Future Questions](https://github.com/aaronbilbow/Project4#analysis-and-future-questions)
@@ -55,8 +55,8 @@ Pillow<br>
 
 ### Dataset
 Retrieved data from the following website: https://www.kaggle.com/datasets/andrewmvd/medical-mnist <br>
-The Dataset was then uploaded to the GitHub Repository at the following website: [ https://github.com/aaronbilbow/Project4/tree/main/Images ] 
-
+The Dataset was then uploaded by each class into seperate folders to the GitHub Repository at the following website: [ https://github.com/aaronbilbow/Project4/tree/main/Images ] 
+Table image showing what scans are contained in the data set: ![image](https://github.com/aaronbilbow/Project4/blob/main/Images/MRI_Table.png)
 __Dataset Limitations__
 - There are only 6 classes of scans that have been provided.
 
