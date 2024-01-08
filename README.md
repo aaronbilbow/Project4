@@ -11,7 +11,8 @@ Presentation website can located at: [Project4](https://github.com/aaronbilbow/P
 ## Table of Contents
 1. [Introduction](https://github.com/aaronbilbow/Project4#introduction)
     1. [Repository Structure](https://github.com/aaronbilbow/Project4#repository-structure)
-    2. [Dataset](https://github.com/aaronbilbow/Project4#dataset)
+    2. [Dataset](https://github.com/aaronbilbow/Project4#requirements)
+    3. [Dataset](https://github.com/aaronbilbow/Project4#dataset)
 2. [Results](https://github.com/aaronbilbow/Project4#results)
     1. [Analysis and Future Questions](https://github.com/aaronbilbow/Project4#analysis-and-future-questions)
 3. [Acknowledgements](https://github.com/aaronbilbow/Project4#acknowledgements)
@@ -23,20 +24,34 @@ These images where orginally taken from various other data sets and converted in
 
 
 ### Repository Structure
-The root directory contains:
--README.md
+The root directory contains:<br>
+              -app.py<br>
+              -README.md<br>
+              -project-4.ipynb<br>
+              
+Other directories:<br>
+Images(Folder)<br>
+              - Contains the image used in the README.<br>
+              -AbdomenCT (Folder) Contains 10000 different medical images of CT scan displaying an Abdomen in a 64x64 style <br>
+              - BreastMRI (Folder) Contains 8954 different medical images of a Breast MRI displayed in a 64x64 style <br>
+              - CXR (Folder) Contains 10000 different medical images of an X-ray displaying a Chest in a 64x64 style <br>
+              - ChestCT (Folder) Contains 10000 different medical images of CT scan displaying a Chest in a 64x64 style <br>
+              - Hand (Folder) Contains 10000 different medical images of an X-ray displaying a Hand in a 64x64 style <br> 
+              - HeadCT (Folder) Contains 10000 different medical images of CT scan displaying a Head in a 64x64 style <br>
+              
+Admin(Folder)<br>
+              -'workinglog.txt'<br>
+              -'medical.txt'<br> 
+              -'Project4.docx'<br>
 
-Other directories:
-Data(Folder)- Contains 58954 medical images of a 64x64 style.<br>
-Admin(Folder)-  'workinglog.txt', 'medical.txt'. 'Project4.docx'<br>
-Images(Folder)-contains all images used in the README.<br>
-
-Requirements
-streamlit
-tensorflow-cpu
-Pillow
-numpy
-protobuf
+### Requirements
+pathlib<br>
+numpy<br>
+matplotlib<br>
+sklearn<br>
+tensorflow <br>
+streamlit<br>
+Pillow<br>
 
 ### Dataset
 Retrieved data from the following website: https://www.kaggle.com/datasets/andrewmvd/medical-mnist <br>
