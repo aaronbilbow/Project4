@@ -42,7 +42,7 @@ def load_model():
 with st.spinner('Model is being loaded..'):
     model=load_model()
     #model = keras.Sequential()
-    #model.add(keras.layers.Input(shape=(224, 224, 4)))
+    #model.add(keras.layers.Input(shape=(64, 64, 4)))
     
 
 st.write("""
@@ -52,7 +52,7 @@ st.write("""
 
 file = st.file_uploader("", type=["jpg", "png"])
 def import_and_predict(image_data, model):
-        size = (224,224)    
+        size = (64,64)    
         image = ImageOps.fit(image_data, size, Image.Resampling.LANCZOS)
         img = np.asarray(image)
         img_reshape = img[np.newaxis,...]
