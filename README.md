@@ -55,13 +55,17 @@ Pillow<br>
 
 ### Dataset
 Retrieved data from the following website: https://www.kaggle.com/datasets/andrewmvd/medical-mnist <br>
-The Dataset was then uploaded by each class into seperate folders to the GitHub Repository at the following website: [ https://github.com/aaronbilbow/Project4/tree/main/Images ] 
-Table image showing what scans are contained in the data set: ![image](https://github.com/aaronbilbow/Project4/blob/main/Images/MRI_Table.png)
-__Dataset Limitations__
-- There are only 6 classes of scans that have been provided.
+The Dataset was then uploaded by each class into seperate folders to the GitHub Repository at the following website: [ https://github.com/aaronbilbow/Project4/tree/main/Images ] <br>
+Table image showing what scans are contained in the data set: ![image](https://github.com/aaronbilbow/Project4/blob/main/Images/MRI_Table.png)<br>
+__Dataset Limitations__<br>
+- There are only 6 classes of scans that have been provided.<br>
 
 ## Results
-###### The model achieves x precision, and x accuracy when prediciting which class an image, from one of the 6 relevant classes, belongs to. 
+The model was trained over 10 complete cycles and tested 1290 images each cycle.<br>
+The following results where found when evaluating the model, it achieved x accuracy when<br>
+prediciting which class an image, from one of the 6 relevant classes, belongs to. <br>
+This can be highlighted through the graph below that was exported from the jupyter notebook located at ![jupyternotebook](https://github.com/aaronbilbow/Project4/blob/main/project-4.ipynb)<br>
+![image](https://github.com/aaronbilbow/Project4/blob/main/Images/Accuracy_Model.png)<br>
 
 ### Analysis and Future Questions
 A deeper intention behind this model is to put together a database of various scans with different health complications so that<br>
