@@ -72,32 +72,26 @@ else:
     class_names = ['AbdomenCT','BreastMRI','CXR','ChestCT','Hand','HeadCT']
 
 
-    string = "Detected Disease : " + class_names[np.argmax(predictions)]
+    string = "Detected MRI/CT Scan Diagnosis : " + class_names[np.argmax(predictions)]
     if class_names[np.argmax(predictions)] == 'Abdomen CT':
-        st.sidebar.success(string)
         st.markdown("## Body Part")
         st.info("The MRI/CT scan that has been uploaded is: Abdomen CT Scan.")
 
     elif class_names[np.argmax(predictions)] == 'BreastMRI':
-        st.sidebar.warning(string)
         st.markdown("## Body Part")
         st.info("The MRI/CT scan that has been uploaded is: BreastMRI.")
 
     elif class_names[np.argmax(predictions)] == 'CXR':
-        st.sidebar.warning(string)
         st.markdown("## Body Part")
         st.info("The MRI/CT scan that has been uploaded is: CXR.")
       
     elif class_names[np.argmax(predictions)] == 'Chest CT':
-        st.sidebar.warning(string)
         st.markdown("## Body Part")
         st.info("The MRI/CT scan that has been uploaded is: Chest CT Scan.")
 
     elif class_names[np.argmax(predictions)] == 'Hand':
-        st.sidebar.warning(string)
         st.markdown("## Body Part")
         st.info("The MRI/CT scan that has been uploaded is: Hand.")
     elif class_names[np.argmax(predictions)] == 'Head CT':
-        st.sidebar.warning(string)
         st.markdown("## Body Part")
         st.info("The MRI/CT scan that has been uploaded is: Head CT Scan.")
