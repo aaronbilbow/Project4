@@ -57,7 +57,7 @@ if model_loaded:
         if predicted_class == 'AbdomenCT':
             st.info("The MRI/CT scan that has been uploaded is: Abdomen CT Scan.")
         elif predicted_class == 'BreastMRI':
-            st.info("The MRI/CT scan that has been uploaded is: BreastMRI.")
+            st.info("The MRI/CT scan that has been uploaded is: Breast MRI.")
         elif predicted_class == 'CXR':
             st.info("The MRI/CT scan that has been uploaded is: CXR.")
         elif predicted_class == 'ChestCT':
