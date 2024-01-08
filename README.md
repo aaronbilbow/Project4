@@ -27,16 +27,22 @@ The root directory contains:
 -README.md
 
 Other directories:
-Data(Folder)- Contains 58954 medical images of a 64x64 style.<br>
+Images(Folder)- Contains the image used in the README.<br>
+              - AbdomenCT (Folder) Contains 58954 different medical images of CT scan displaying an Abdomen in a 64x64 style <br>
+              - BreastMRI (Folder) Contains 58954 different medical images of a Breast MRI displayed in a 64x64 style <br>
+              - CXR (Folder) Contains 58954 different medical images of an X-ray displaying a Chest in a 64x64 style <br>
+              - ChestCT (Folder) Contains 58954 different medical images of CT scan displaying a Chest in a 64x64 style <br>
+              - Hand (Folder) Contains 58954 different medical images of an X-ray displaying a Hand in a 64x64 style <br> 
+              - HeadCT (Folder) Contains 58954 different medical images of CT scan displaying a Head in a 64x64 style <br>
 Admin(Folder)-  'workinglog.txt', 'medical.txt'. 'Project4.docx'<br>
-Images(Folder)-contains all images used in the README.<br>
 
-Requirements
-streamlit
-tensorflow-cpu
-Pillow
-numpy
-protobuf
+
+Requirements (Check Over)
+streamlit<br>
+tensorflow-cpu<br>
+Pillow<br>
+numpy<br>
+protobuf<br>
 
 ### Dataset
 Retrieved data from the following website: https://www.kaggle.com/datasets/andrewmvd/medical-mnist <br>
