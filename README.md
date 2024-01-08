@@ -64,7 +64,7 @@ __Dataset Limitations__<br>
 The model was trained over 10 complete cycles and tested 1290 images each cycle.<br>
 The following results where found when evaluating the model, it achieved x accuracy when<br>
 prediciting which class an image, from one of the 6 relevant classes, belongs to. <br>
-This can be highlighted through the graph below that was exported from the jupyter notebook located at ![jupyternotebook](https://github.com/aaronbilbow/Project4/blob/main/project-4.ipynb)<br>
+This can be highlighted through the graph below that was exported from the jupyter notebook located at [jupyternotebook](https://github.com/aaronbilbow/Project4/blob/main/project-4.ipynb)<br>
 ![image](https://github.com/aaronbilbow/Project4/blob/main/Images/Accuracy_Model.png)<br>
 
 ### Analysis and Future Questions
