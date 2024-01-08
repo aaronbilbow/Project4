@@ -38,3 +38,6 @@ From the following list we shall use at least: Python Pandas and Python Matplotl
 5) Back end ETL (Adam thinks this is taken care of by the images already being categorized by type of scan already, This saves us having to move scanned images into particularly folders. 
 Nevertheless we may need to transform all images to a specific size(scale all to the same)
 6) Provide Visualizations: Scatter plots, Graphs, Images of data. Prediction vs actual models. 
+
+^Plans changed on the 5th of January 
+The data set that we used would be the same as would the majority of the code. Kaggle was where most of these notebooks where ran and steamlit will be the application used to present and run our model.
