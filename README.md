@@ -31,9 +31,16 @@ Data(Folder)- Contains 58954 medical images of a 64x64 style.<br>
 Admin(Folder)-  'workinglog.txt', 'medical.txt'. 'Project4.docx'<br>
 Images(Folder)-contains all images used in the README.<br>
 
+Requirements
+streamlit
+tensorflow-cpu
+Pillow
+numpy
+protobuf
+
 ### Dataset
 Retrieved data from the following website: https://www.kaggle.com/datasets/andrewmvd/medical-mnist <br>
-The Dataset was then uploaded to the GitHub Repository at the following website: [ x ] 
+The Dataset was then uploaded to the GitHub Repository at the following website: [ https://github.com/aaronbilbow/Project4/tree/main/Images ] 
 
 __Dataset Limitations__
 - There are only 6 classes of scans that have been provided.
