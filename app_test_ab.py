@@ -15,7 +15,7 @@ st.set_page_config(
 
 @st.cache(allow_output_mutation=True)
 def load_model():
-    model = tf.keras.models.load_model('####NEED TO EDIT #####Project4.h5')
+    model = tf.keras.models.load_model('Project4.h5')
     return model
 
 def prediction_cls(prediction):
@@ -50,14 +50,14 @@ if model_loaded:
         class_names = {0: 'AbdomenCT', 1: 'BreastMRI', 2: 'CXR', 3: 'ChestCT', 4: 'Hand', 5: 'HeadCT'}
 
         predicted_class = prediction_cls(predictions)
-        string = "Detected Disease: " + predicted_class
+        string = "MRI/CT Scan Diagnosis : " + predicted_class
         st.sidebar.success(string)
 
         st.markdown("## Body Part")
         if predicted_class == 'AbdomenCT':
             st.info("The MRI/CT scan that has been uploaded is: Abdomen CT Scan.")
         elif predicted_class == 'BreastMRI':
-            st.info("The MRI/CT scan that has been uploaded is: BreastMRI.")
+            st.info("The MRI/CT scan that has been uploaded is: Breast MRI.")
         elif predicted_class == 'CXR':
             st.info("The MRI/CT scan that has been uploaded is: CXR.")
         elif predicted_class == 'ChestCT':
