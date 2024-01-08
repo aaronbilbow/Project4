@@ -30,8 +30,9 @@ The root directory contains:<br>
               -project-4.ipynb<br>
               
 Other directories:<br>
-Images(Folder)- Contains the image used in the README.<br>
-              - AbdomenCT (Folder) Contains 10000 different medical images of CT scan displaying an Abdomen in a 64x64 style <br>
+Images(Folder)<br>
+              - Contains the image used in the README.<br>
+              -AbdomenCT (Folder) Contains 10000 different medical images of CT scan displaying an Abdomen in a 64x64 style <br>
               - BreastMRI (Folder) Contains 8954 different medical images of a Breast MRI displayed in a 64x64 style <br>
               - CXR (Folder) Contains 10000 different medical images of an X-ray displaying a Chest in a 64x64 style <br>
               - ChestCT (Folder) Contains 10000 different medical images of CT scan displaying a Chest in a 64x64 style <br>
