@@ -11,7 +11,8 @@ Presentation website can located at: [Project4](https://github.com/aaronbilbow/P
 ## Table of Contents
 1. [Introduction](https://github.com/aaronbilbow/Project4#introduction)
     1. [Repository Structure](https://github.com/aaronbilbow/Project4#repository-structure)
-    2. [Dataset](https://github.com/aaronbilbow/Project4#dataset)
+    2. [Dataset](https://github.com/aaronbilbow/Project4#requirements)
+    3. [Dataset](https://github.com/aaronbilbow/Project4#dataset)
 2. [Results](https://github.com/aaronbilbow/Project4#results)
     1. [Analysis and Future Questions](https://github.com/aaronbilbow/Project4#analysis-and-future-questions)
 3. [Acknowledgements](https://github.com/aaronbilbow/Project4#acknowledgements)
@@ -41,12 +42,14 @@ Admin(Folder) -'workinglog.txt'<br>
               -'medical.txt'<br> 
               -'Project4.docx'<br>
 
-Requirements (Check Over)
-streamlit<br>
-tensorflow-cpu<br>
-Pillow<br>
+### Requirements
+pathlib<br>
 numpy<br>
-protobuf<br>
+matplotlib<br>
+sklearn<br>
+tensorflow <br>
+streamlit<br>
+Pillow<br>
 
 ### Dataset
 Retrieved data from the following website: https://www.kaggle.com/datasets/andrewmvd/medical-mnist <br>
