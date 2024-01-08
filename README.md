@@ -37,8 +37,9 @@ Images(Folder)- Contains the image used in the README.<br>
               - Hand (Folder) Contains 58954 different medical images of an X-ray displaying a Hand in a 64x64 style <br> 
               - HeadCT (Folder) Contains 58954 different medical images of CT scan displaying a Head in a 64x64 style <br>
               
-Admin(Folder)-  'workinglog.txt', 'medical.txt'. 'Project4.docx'<br>
-
+Admin(Folder) -'workinglog.txt'<br>
+              -'medical.txt'<br> 
+              -'Project4.docx'<br>
 
 Requirements (Check Over)
 streamlit<br>
