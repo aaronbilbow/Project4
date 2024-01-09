@@ -73,7 +73,7 @@ With the accuracy increasing along with this it seems they are inversely proport
 A deeper intention behind this model is to put together a database of various scans with different health complications so that<br>
 future models are able to predict/identify health problems earlier by scanning over the images and highlighting possible concerns.<br>
 <br>
-glorot_uniform had been used as it was introduced in a research paper in 2010. This was used as it attempts to maintain roughly the same level of varience in the output<br>
+glorot_uniform had been used as it was introduced in a research paper in 2010. This was used as it attempts to<br> maintain roughly the same level of varience in the output
 dataset as it had in the dataset input into the model. 
 
 
