@@ -75,7 +75,7 @@ This can be highlighted through the graph below that was exported from the jupyt
 The loss at the start of the model starts off high before decreasing vastly and then contniuing to slowly decrease as the model is cycling through data points. <br>
 With the accuracy increasing along with this it seems they are inversely proportional, this leads to the conclusion that the model is learning over time.<br>
 A deeper intention behind this model is to put together a database of various scans with different health complications so that<br>
-future models are able to predict/identify health problems earlier by scanning over the images and highlighting possible concerns.<br>
+future models are able to predict/identify health problems earlier by scanning over the images and highlighting concerns as soon as possible.<br>
 <br>
 
 
