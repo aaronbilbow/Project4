@@ -72,7 +72,7 @@ A deeper intention behind this model is to put together a database of various sc
 future models are able to predict/identify health problems earlier by scanning over the images and highlighting possible concerns.<br> </p>
 ## Acknowledgements 
 BibTeX
-@misc{Medical MNIST Classification, author = {apolanco3225}, title = {Medical MNIST Classification}, year = {2017}, publisher = {GitHub}, journal = {GitHub repository}, howpublished = https://github.com/apolanco3225/Medical-MNIST-Classification
+@misc{Medical MNIST Classification, author = {apolanco3225}, title = {Medical MNIST Classification}, year = {2017}, publisher = {GitHub}, journal = {GitHub repository}, howpublished = https://github.com/apolanco3225/Medical-MNIST-Classification}
 
 License
 Public Domain
