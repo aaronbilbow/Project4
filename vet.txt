@@ -1,7 +1,7 @@
 vet clinic data
 do all the heat mapping with months as drop downs
 
-- heatmap with 
+- heatmap with Animal/Injury Type. Vet clinic or data of report
 	- Total customers
 	- Total dogs
 	- Total cats
@@ -13,6 +13,8 @@ do all the heat mapping with months as drop downs
 	- Total new clients per month per suburb
 	- how they heard about the clinic per suburb (if avail)
 	- Total spend on different products per suburb
+	- Total injuries that occured within the region
+	
 
 stats avail on page
 	- highest product sold
@@ -27,10 +29,10 @@ amountUpdated.groupBy('transaction_date').agg(
     
 ).show()
  
-Adam thinks we may need to use a time stamp convertor as well?
+
 ----------------------------------------------------------------------
  
-## Adams input below ## 
+Other Ideas
 
 Looking at what question we are trying to solve or analyse. 
 
