@@ -62,7 +62,7 @@ __Dataset Limitations__<br>
 
 ## Results
 The model was trained over 10 complete cycles and tested 1290 images each cycle.<br>
-The keras glorot_uniform initializers had been used in this project, as it was introduced in a research paper in 2010. This was used as it attempts to<br> maintain roughly the same level of varience in the output
+The keras glorot_uniform initializers had been used in this project, as it was introduced in a research paper in 2010. This was used as it attempts to maintain roughly the same level of varience in the output
 dataset as it had in the dataset input into the model. <br>
 
 The following results where found when evaluating the model, it achieved an accuracy value of 0.9891% when<br>
