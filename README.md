@@ -62,8 +62,12 @@ __Dataset Limitations__<br>
 
 ## Results
 The model was trained over 10 complete cycles and tested 1290 images each cycle.<br>
+glorot_uniform had been used as it was introduced in a research paper in 2010. This was used as it attempts to<br> maintain roughly the same level of varience in the output
+dataset as it had in the dataset input into the model. <br>
+
 The following results where found when evaluating the model, it achieved an accuracy value of 0.9891% when<br>
 prediciting which class an image, from one of the 6 relevant classes, belongs to. The validation accuracy for the model was 0.9909%. <br>
+
 This can be highlighted through the graph below that was exported from the jupyter notebook located at [https://github.com/aaronbilbow/Project4/blob/main/project-4.ipynb]<br>
 ![image](https://github.com/aaronbilbow/Project4/blob/main/Images/Accuracy_Model.png)<br>
 
@@ -71,10 +75,9 @@ This can be highlighted through the graph below that was exported from the jupyt
 The loss at the start of the model starts off high before decreasing vastly and then contniuing to slowly decrease as the model is cycling through data points. <br>
 With the accuracy increasing along with this it seems they are inversely proportional, this leads to the conclusion that the model is learning over time.<br>
 A deeper intention behind this model is to put together a database of various scans with different health complications so that<br>
-future models are able to predict/identify health problems earlier by scanning over the images and highlighting possible concerns.<br>
+future models are able to predict/identify health problems earlier by scanning over the images and highlighting concerns as soon as possible.<br>
 <br>
-glorot_uniform had been used as it was introduced in a research paper in 2010. This was used as it attempts to maintain roughly the same level of varience in the output<br>
-dataset as it had in the dataset input into the model. 
+
 
 
 
