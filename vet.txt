@@ -1,0 +1,46 @@
+vet clinic data
+do all the heat mapping with months as drop downs
+
+- heatmap with 
+	- Total customers
+	- Total dogs
+	- Total cats
+	- Total other
+
+- stats heat maps
+	- Total spend by suburb
+	- Total animals by suburb
+	- Total new clients per month per suburb
+	- how they heard about the clinic per suburb (if avail)
+	- Total spend on different products per suburb
+
+stats avail on page
+	- highest product sold
+
+---------------------------------------------------------------------
+will need some of this calc
+
+
+amountUpdated.groupBy('transaction_date').agg(
+    sum("transaction_amount").alias("Total Amount"),
+    avg("transaction_amount").alias("Average Amount"),
+    
+).show()
+ 
+Adam thinks we may need to use a time stamp convertor as well?
+----------------------------------------------------------------------
+ 
+## Adams input below ## 
+
+Looking at what question we are trying to solve or analyse. 
+
+- stats on appointments, (idea on this:  could group by animal type/proceudre type and look at numbers of these as % of total number)
+	- Total time spent in the appointment
+	- The Appointment description. This serves as the reason for appointment.
+	- Procedure (A therapeutic, is medical activity that can be performed by the clinic, such as anaesthesia, desexing, microchipping)
+	- Operation or not and if so procedures performed. 
+
+looking at total number of snake bites if we can see it specifically for summer if we could
+look at number of dogs that get bitten and % that need anti venom ( could this be applied to country regions to prevent animal deaths)
+Looking at total number of Procedures done per year. % break up of those procedures and then % of animal types that have procedures each year 
+	
