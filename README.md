@@ -32,12 +32,12 @@ The root directory contains:<br>
 Other directories:<br>
 Images(Folder)<br>
               - Contains the image used in the README.<br>
-              -AbdomenCT (Folder) Contains 10000 different medical images of CT scan displaying an Abdomen in a 64x64 style <br>
-              - BreastMRI (Folder) Contains 8954 different medical images of a Breast MRI displayed in a 64x64 style <br>
-              - CXR (Folder) Contains 10000 different medical images of an X-ray displaying a Chest in a 64x64 style <br>
-              - ChestCT (Folder) Contains 10000 different medical images of CT scan displaying a Chest in a 64x64 style <br>
-              - Hand (Folder) Contains 10000 different medical images of an X-ray displaying a Hand in a 64x64 style <br> 
-              - HeadCT (Folder) Contains 10000 different medical images of CT scan displaying a Head in a 64x64 style <br>
+              -AbdomenCT (Folder) Contains 10000 different medical images of CT scan displaying an Abdomen <br>
+              - BreastMRI (Folder) Contains 8954 different medical images of a Breast MRI <br>
+              - CXR (Folder) Contains 10000 different medical images of an X-ray displaying a Chest <br>
+              - ChestCT (Folder) Contains 10000 different medical images of CT scan displaying a Chest <br>
+              - Hand (Folder) Contains 10000 different medical images of an X-ray displaying a Hand <br> 
+              - HeadCT (Folder) Contains 10000 different medical images of CT scan displaying a Head<br>
               
 Admin(Folder)<br>
               -'workinglog.txt'<br>
