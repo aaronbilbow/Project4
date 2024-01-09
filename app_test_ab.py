@@ -15,7 +15,7 @@ st.set_page_config(
 
 @st.cache(allow_output_mutation=True)
 def load_model():
-    model = tf.keras.models.load_model('Project4.h5')
+    model = tf.keras.models.load_model('Project4.hdf5')
     return model
 
 def prediction_cls(prediction):
